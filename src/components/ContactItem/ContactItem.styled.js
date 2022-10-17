@@ -5,7 +5,7 @@ export const ListItem = styled.li`
   transition: transform 0.2s;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.2);
   }
 `;
 
