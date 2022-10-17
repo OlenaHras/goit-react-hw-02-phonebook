@@ -1,11 +1,12 @@
 import styled from '@emotion/styled';
 
 export const ListItem = styled.li`
+  width: 400px;
   margin-bottom: 12px;
   transition: transform 0.2s;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 `;
 
