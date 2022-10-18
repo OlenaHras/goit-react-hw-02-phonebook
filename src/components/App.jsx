@@ -13,7 +13,8 @@ export class App extends Component {
   };
 
   handleSubmitInfo = data => {
-    this.state.contacts.find(el => el.name === data.name)
+    const uniqueEl = this.state.contacts.find(el => el.name === data.name);
+    uniqueEl
       ? alert(`${data.name} is already in contacts`)
       : this.setState({
           contacts: this.state.contacts.concat([data]),
